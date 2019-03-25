@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+  <schedule>
+    <!--pk10(北京PK10) start -->
+    <job>
+      <name>pk10Job</name>
+      <group>pk10Group</group>
+      <description>pk10JobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.Pk10Job,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>pk10JobTrigger</name>
+        <group></group>
+        <job-name>pk10Job</job-name>
+        <job-group>pk10Group</job-group>
+        <start-time>2019-01-01T09:30:40</start-time>
+        <cron-expression>40 10,30,50 9-0 * * ? *</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--SGft(SG飞艇) job start -->
+    <job>
+      <name>SGftJob</name>
+      <group>SGftGroup</group>
+      <description>SGftJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.SGftJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>SGftJobTrigger</name>
+        <group></group>
+        <job-name>SGftJob</job-name>
+        <job-group>SGftGroup</job-group>
+        <start-time>2019-01-01T00:00:00</start-time>
+        <cron-expression>0 0/5 * * * ? </cron-expression>
+      </cron>
+    </trigger>
+
+    <!--Xyft(幸运飞艇) job start -->
+    <job>
+      <name>XyftJob</name>
+      <group>XyftGroup</group>
+      <description>XyftJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.XyftJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>XyftJobTrigger</name>
+        <group></group>
+        <job-name>XyftJob</job-name>
+        <job-group>XyftGroup</job-group>
+        <start-time>2019-01-01T13:10:35</start-time>
+        <cron-expression>0 0/5 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--CQssc(重庆时时彩) job start -->
+    <job>
+      <name>CQsscJob</name>
+      <group>CQsscGroup</group>
+      <description>CQsscJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.CQsscJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>CQsscJobTrigger</name>
+        <group></group>
+        <job-name>CQsscJob</job-name>
+        <job-group>CQsscGroup</job-group>
+        <start-time>2019-01-01T00:30:20</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--Jsssc(急速时时彩) start -->
+    <job>
+      <name>JssscJob</name>
+      <group>JssscGroup</group>
+      <description>JssscJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.JssscJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>JssscTrigger</name>
+        <group></group>
+        <job-name>JssscJob</job-name>
+        <job-group>JssscGroup</job-group>
+        <start-time>2019-01-01T00:00:30</start-time>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>75000</repeat-interval>
+      </simple>
+    </trigger>
+  </schedule>
+</job-scheduling-data>

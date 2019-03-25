@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+  <schedule>
+    <!--Shiyi5Dj(十一运夺金) job start -->
+    <job>
+      <name>Shiyi5DjJob</name>
+      <group></group>
+      <description>Shiyi5DjJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5DjJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5DjJobTrigger</name>
+        <group></group>
+        <job-name>Shiyi5DjJob</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:01:40</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--广东11选5 job start -->
+    <job>
+      <name>Shiyi5GdJob</name>
+      <group></group>
+      <description>Shiyi5GdJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5GdJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5GdJobTrigger</name>
+        <group></group>
+        <job-name>Shiyi5GdJob</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:30:30</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--上海11选5 job start -->
+    <job>
+      <name>Shiyi5ShJob</name>
+      <group></group>
+      <description>Shiyi5ShJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5ShJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5ShJobTrigger</name>
+        <group></group>
+        <job-name>Shiyi5ShJob</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:20:50</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--安徽11选5 job start -->
+    <job>
+      <name>Shiyi5Ah</name>
+      <group></group>
+      <description>Shiyi5AhDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5AhJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5AhTrigger</name>
+        <group></group>
+        <job-name>Shiyi5Ah</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:00:30</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--江西11选5 job start -->
+    <job>
+      <name>Shiyi5Jx</name>
+      <group></group>
+      <description>Shiyi5JxDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5JxJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5JxTrigger</name>
+        <group></group>
+        <job-name>Shiyi5Jx</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:00:30</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--吉林11选5 job start -->
+    <job>
+      <name>Shiyi5Jl</name>
+      <group></group>
+      <description>Shiyi5JlDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5JlJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5JlTrigger</name>
+        <group></group>
+        <job-name>Shiyi5Jl</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T08:51:25</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--广西11选5 job start -->
+    <job>
+      <name>Shiyi5Gx</name>
+      <group></group>
+      <description>Shiyi5GxDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5GxJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5GxTrigger</name>
+        <group></group>
+        <job-name>Shiyi5Gx</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:02:00</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--湖北11选5 job start -->
+    <job>
+      <name>Shiyi5Hb</name>
+      <group></group>
+      <description>Shiyi5HbDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5HbJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5HbTrigger</name>
+        <group></group>
+        <job-name>Shiyi5Hb</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T08:55:50</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--辽宁11选5 job start -->
+    <job>
+      <name>Shiyi5Ln</name>
+      <group></group>
+      <description>Shiyi5LnDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5LnJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5LnTrigger</name>
+        <group></group>
+        <job-name>Shiyi5Ln</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:21:10</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--江苏11选5 job start -->
+    <job>
+      <name>Shiyi5Jiangsu</name>
+      <group></group>
+      <description>Shiyi5JiangsuDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5JiangsuJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5JiangsuTrigger</name>
+        <group></group>
+        <job-name>Shiyi5Jiangsu</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T08:46:45</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--浙江11选5 job start -->
+    <job>
+      <name>Shiyi5Zj</name>
+      <group></group>
+      <description>Shiyi5ZjDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5ZjJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5ZjTrigger</name>
+        <group></group>
+        <job-name>Shiyi5Zj</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T08:51:30</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--内蒙古11选5 job start -->
+    <job>
+      <name>Shiyi5Nmg</name>
+      <group></group>
+      <description>Shiyi5NmgDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Shiyix5.Shiyi5NmgJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Shiyi5NmgTrigger</name>
+        <group></group>
+        <job-name>Shiyi5Nmg</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:26:58</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+  <schedule>
+    <!--江苏 k3 job start -->
+    <job>
+      <name>K3Jiangsu</name>
+      <group></group>
+      <description>K3JiangsuDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.K3.K3JiangsuJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>K3JiangsuTrigger</name>
+        <group></group>
+        <job-name>K3Jiangsu</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T08:50:30</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--吉林 k3 job start -->
+    <job>
+      <name>K3Jl</name>
+      <group></group>
+      <description>K3JlDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.K3.K3JlJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>K3JlTrigger</name>
+        <group></group>
+        <job-name>K3Jl</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T08:40:50</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--河北 k3 job start -->
+    <job>
+      <name>K3Hb</name>
+      <group></group>
+      <description>K3HbDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.K3.K3HbJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>K3HbTrigger</name>
+        <group></group>
+        <job-name>K3Hb</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T08:40:00</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>

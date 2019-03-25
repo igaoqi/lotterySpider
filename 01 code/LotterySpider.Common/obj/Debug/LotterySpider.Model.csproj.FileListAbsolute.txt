@@ -1,0 +1,16 @@
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\LotterySpider.Model.dll
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\LotterySpider.Model.pdb
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\AutoMapper.dll
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\log4net.dll
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\Newtonsoft.Json.dll
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\RestSharp.dll
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\System.ValueTuple.dll
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\AutoMapper.pdb
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\AutoMapper.xml
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\log4net.xml
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\RestSharp.xml
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\bin\Debug\System.ValueTuple.xml
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\obj\Debug\LotterySpider.Model.csproj.CoreCompileInputs.cache
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\obj\Debug\LotterySpider.Model.csproj.CopyComplete
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\obj\Debug\LotterySpider.Model.dll
+D:\Works\Examples\Lottery\LotterySpider\LotterySpider.Model\obj\Debug\LotterySpider.Model.pdb

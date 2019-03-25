@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+  <schedule>
+    <!--JsscJob(极速赛车) job start -->
+    <job>
+      <name>JsscJob</name>
+      <group>JsscGroup</group>
+      <description>JsscJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.JiSuCai.JsscJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>JsscTrigger</name>
+        <group></group>
+        <job-name>JsscJob</job-name>
+        <job-group>JsscGroup</job-group>
+        <start-time>2019-01-01T00:00:33</start-time>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>75000</repeat-interval>
+      </simple>
+    </trigger>
+
+    <!--Jsft(急速飞艇) start -->
+    <job>
+      <name>JsftJob</name>
+      <group>JsftGroup</group>
+      <description>JsftJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.JiSuCai.JsftJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>JsftTrigger</name>
+        <group></group>
+        <job-name>JsftJob</job-name>
+        <job-group>JsftGroup</job-group>
+        <start-time>2019-01-01T00:01:00</start-time>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>75000</repeat-interval>
+      </simple>
+    </trigger>
+
+    <!--Jsssc(急速时时彩) start -->
+    <job>
+      <name>JssscJob</name>
+      <group>JssscGroup</group>
+      <description>JssscJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.JiSuCai.JssscJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>JssscTrigger</name>
+        <group></group>
+        <job-name>JssscJob</job-name>
+        <job-group>JssscGroup</job-group>
+        <start-time>2019-01-01T00:00:30</start-time>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>75000</repeat-interval>
+      </simple>
+    </trigger>
+
+    <!--Jsk3(急速快3) start -->
+    <job>
+      <name>Jsk3Job</name>
+      <group>Jsk3Group</group>
+      <description>Jsk3JobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.JiSuCai.Jsk3Job,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>Jsk3Trigger</name>
+        <group></group>
+        <job-name>Jsk3Job</job-name>
+        <job-group>Jsk3Group</job-group>
+        <start-time>2019-01-01T00:00:30</start-time>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>75000</repeat-interval>
+      </simple>
+    </trigger>
+
+    <!--Jsklsf(急速快乐十分) start -->
+    <job>
+      <name>JsklsfJob</name>
+      <group>JsklsfGroup</group>
+      <description>JsklsfJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.JiSuCai.JsklsfJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>JsklsfTrigger</name>
+        <group></group>
+        <job-name>JsklsfJob</job-name>
+        <job-group>JsklsfGroup</job-group>
+        <start-time>2019-01-01T00:00:30</start-time>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>75000</repeat-interval>
+      </simple>
+    </trigger>
+
+    <!--Jskl8(急速快乐8) start -->
+    <job>
+      <name>Jskl8Job</name>
+      <group>Jskl8Group</group>
+      <description>Jskl8JobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.JiSuCai.Jskl8Job,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>Jskl8Trigger</name>
+        <group></group>
+        <job-name>Jskl8Job</job-name>
+        <job-group>Jskl8Group</job-group>
+        <start-time>2019-01-01T00:00:30</start-time>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>75000</repeat-interval>
+      </simple>
+    </trigger>
+
+    <!--Js11x5(急速11选5) start -->
+    <job>
+      <name>Js11x5Job</name>
+      <group>Js11x5Group</group>
+      <description>Js11x5JobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.JiSuCai.Js11x5Job,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>Js11x5Trigger</name>
+        <group></group>
+        <job-name>Js11x5Job</job-name>
+        <job-group>Js11x5Group</job-group>
+        <start-time>2019-01-01T00:00:30</start-time>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>75000</repeat-interval>
+      </simple>
+    </trigger>
+  </schedule>
+</job-scheduling-data>
