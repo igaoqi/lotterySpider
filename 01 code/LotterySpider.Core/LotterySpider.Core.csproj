@@ -84,6 +84,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Jobs\Impls\K3\K3BjJob.cs" />
+    <Compile Include="Jobs\Impls\K3\K3HubJob.cs" />
+    <Compile Include="Jobs\Impls\K3\K3FjJob.cs" />
+    <Compile Include="Jobs\Impls\K3\K3GxJob.cs" />
+    <Compile Include="Jobs\Impls\K3\K3NmgJob.cs" />
+    <Compile Include="Jobs\Impls\K3\K3AhJob.cs" />
     <Compile Include="Statistics\IStatisticsProvider.cs" />
     <Compile Include="Statistics\Impls\Shiyi5\Shiyi5GdStatistics.cs" />
     <Compile Include="DbContext\DbFactory.cs" />

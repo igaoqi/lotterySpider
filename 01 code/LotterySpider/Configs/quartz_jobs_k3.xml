@@ -63,5 +63,125 @@
         <cron-expression>0 0/20 * * * ?</cron-expression>
       </cron>
     </trigger>
+
+    <!--安徽 k3 job start -->
+    <job>
+      <name>K3Ah</name>
+      <group></group>
+      <description>K3AhDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.K3.K3AhJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>K3AhTrigger</name>
+        <group></group>
+        <job-name>K3Ah</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T08:50:50</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--内蒙古 k3 job start -->
+    <job>
+      <name>K3Nmg</name>
+      <group></group>
+      <description>K3NmgDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.K3.K3NmgJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>K3NmgTrigger</name>
+        <group></group>
+        <job-name>K3Nmg</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:46:51</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--福建 k3 job start -->
+    <job>
+      <name>K3Fj</name>
+      <group></group>
+      <description>K3FjDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.K3.K3FjJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>K3FjTrigger</name>
+        <group></group>
+        <job-name>K3Fj</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:00:10</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--湖北 k3 job start -->
+    <job>
+      <name>K3Hub</name>
+      <group></group>
+      <description>K3HubDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.K3.K3HubJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>K3HubTrigger</name>
+        <group></group>
+        <job-name>K3Hub</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:20:30</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--北京 k3 job start -->
+    <job>
+      <name>K3Bj</name>
+      <group></group>
+      <description>K3BjDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.K3.K3BjJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>K3BjTrigger</name>
+        <group></group>
+        <job-name>K3Bj</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:22:45</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--广西 k3 job start -->
+    <job>
+      <name>K3Gx</name>
+      <group></group>
+      <description>K3GxDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.K3.K3GxJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>K3GxTrigger</name>
+        <group></group>
+        <job-name>K3Gx</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:30:45</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
   </schedule>
 </job-scheduling-data>

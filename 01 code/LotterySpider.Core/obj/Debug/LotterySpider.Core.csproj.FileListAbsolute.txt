@@ -33,3 +33,38 @@ D:\Works\Examples\Lottery\LotterySpider.Core\obj\Debug\LotterySpider.Core.csproj
 D:\Works\Examples\Lottery\LotterySpider.Core\obj\Debug\LotterySpider.Core.csproj.CopyComplete
 D:\Works\Examples\Lottery\LotterySpider.Core\obj\Debug\LotterySpider.Core.dll
 D:\Works\Examples\Lottery\LotterySpider.Core\obj\Debug\LotterySpider.Core.pdb
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\LotterySpider.Core.dll.config
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\LotterySpider.Core.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\LotterySpider.Core.pdb
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\AutoMapper.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Common.Logging.Core.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Common.Logging.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Dapper.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Google.Protobuf.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\LotterySpider.Common.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\MySql.Data.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Quartz.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\RestSharp.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\System.ValueTuple.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Topshelf.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\log4net.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\LotterySpider.Common.pdb
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\AutoMapper.pdb
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\AutoMapper.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Common.Logging.pdb
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Common.Logging.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Common.Logging.Core.pdb
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Common.Logging.Core.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Dapper.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Google.Protobuf.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\MySql.Data.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Quartz.pdb
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Quartz.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\RestSharp.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\System.ValueTuple.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\log4net.xml
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\obj\Debug\LotterySpider.Core.csprojAssemblyReference.cache
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\obj\Debug\LotterySpider.Core.csproj.CoreCompileInputs.cache
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\obj\Debug\LotterySpider.Core.csproj.CopyComplete
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\obj\Debug\LotterySpider.Core.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Core\obj\Debug\LotterySpider.Core.pdb
