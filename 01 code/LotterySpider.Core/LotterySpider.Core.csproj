@@ -84,6 +84,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Jobs\Impls\Gpc\Bjkl8Job.cs" />
+    <Compile Include="Jobs\Impls\Gpc\CqqxcJob.cs" />
+    <Compile Include="Jobs\Impls\Gpc\GxklsfJob.cs" />
+    <Compile Include="Jobs\Impls\Gpc\TjklsfJob.cs" />
+    <Compile Include="Jobs\Impls\Gpc\GdklsfJob.cs" />
+    <Compile Include="Jobs\Impls\Gpc\CqncJob.cs" />
+    <Compile Include="Jobs\Impls\Hot\PCLucky28Job.cs" />
+    <Compile Include="Jobs\Impls\Hot\TjsscJob.cs" />
+    <Compile Include="Jobs\Impls\Hot\XjsscJob.cs" />
+    <Compile Include="Jobs\Impls\Hot\XysscJob.cs" />
+    <Compile Include="Jobs\Impls\Hot\JsscJob.cs" />
     <Compile Include="Jobs\Impls\K3\K3BjJob.cs" />
     <Compile Include="Jobs\Impls\K3\K3HubJob.cs" />
     <Compile Include="Jobs\Impls\K3\K3FjJob.cs" />
@@ -147,5 +158,6 @@
       <Name>LotterySpider.Common</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

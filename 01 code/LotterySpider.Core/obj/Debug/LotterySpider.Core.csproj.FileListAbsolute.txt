@@ -62,7 +62,6 @@ D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Quartz.pdb
 D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\Quartz.xml
 D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\RestSharp.xml
 D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\System.ValueTuple.xml
-D:\Works\Examples\Lottery\01 code\LotterySpider.Core\bin\Debug\log4net.xml
 D:\Works\Examples\Lottery\01 code\LotterySpider.Core\obj\Debug\LotterySpider.Core.csprojAssemblyReference.cache
 D:\Works\Examples\Lottery\01 code\LotterySpider.Core\obj\Debug\LotterySpider.Core.csproj.CoreCompileInputs.cache
 D:\Works\Examples\Lottery\01 code\LotterySpider.Core\obj\Debug\LotterySpider.Core.csproj.CopyComplete

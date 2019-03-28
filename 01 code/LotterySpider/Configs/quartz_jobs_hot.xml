@@ -104,5 +104,126 @@
         <repeat-interval>75000</repeat-interval>
       </simple>
     </trigger>
+
+    <!--Jssc(急速时时彩) start -->
+    <job>
+      <name>JsscJob</name>
+      <group>JsscGroup</group>
+      <description>JsscJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.JsscJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>JsscTrigger</name>
+        <group></group>
+        <job-name>JsscJob</job-name>
+        <job-group>JsscGroup</job-group>
+        <start-time>2019-01-01T00:00:33</start-time>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>75000</repeat-interval>
+      </simple>
+    </trigger>
+
+    <!--Xyssc(幸运时时彩) job start -->
+    <job>
+      <name>XysscJob</name>
+      <group>XysscGroup</group>
+      <description>XysscJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.XysscJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>XysscJobTrigger</name>
+        <group></group>
+        <job-name>XysscJob</job-name>
+        <job-group>XysscGroup</job-group>
+        <start-time>2019-01-01T00:05:00</start-time>
+        <cron-expression>0 0/10 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--Xjssc(新疆时时彩) job start -->
+    <job>
+      <name>XjsscJob</name>
+      <group>XjsscGroup</group>
+      <description>XjsscJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.XjsscJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>XjsscJobTrigger</name>
+        <group></group>
+        <job-name>XjsscJob</job-name>
+        <job-group>XjsscGroup</job-group>
+        <start-time>2019-01-01T10:20:50</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--广西快乐十分 job start -->
+    <job>
+      <name>Gxklsf</name>
+      <group></group>
+      <description>GxklsfDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Gpc.GxklsfJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>GxklsfTrigger</name>
+        <group></group>
+        <job-name>Gxklsf</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:20:45</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--Tjssc(天津时时彩) job start -->
+    <job>
+      <name>TjsscJob</name>
+      <group>TjsscGroup</group>
+      <description>TjsscJobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.TjsscJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>TjsscJobTrigger</name>
+        <group></group>
+        <job-name>TjsscJob</job-name>
+        <job-group>TjsscGroup</job-group>
+        <start-time>2019-01-01T09:20:30</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--PCLucky28(天津时时彩) job start -->
+    <job>
+      <name>PCLucky28Job</name>
+      <group>PCLucky28Group</group>
+      <description>PCLucky28JobDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Hot.PCLucky28Job,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>PCLucky28JobTrigger</name>
+        <group></group>
+        <job-name>PCLucky28Job</job-name>
+        <job-group>PCLucky28Group</job-group>
+        <start-time>2019-01-01T09:05:00</start-time>
+        <cron-expression>0 0/5 * * * ?</cron-expression>
+      </cron>
+    </trigger>
   </schedule>
 </job-scheduling-data>

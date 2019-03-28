@@ -27,3 +27,10 @@ D:\Works\Examples\Lottery\LotterySpider.Common\obj\Debug\LotterySpider.Common.cs
 D:\Works\Examples\Lottery\LotterySpider.Common\obj\Debug\LotterySpider.Common.csproj.CopyComplete
 D:\Works\Examples\Lottery\LotterySpider.Common\obj\Debug\LotterySpider.Common.dll
 D:\Works\Examples\Lottery\LotterySpider.Common\obj\Debug\LotterySpider.Common.pdb
+D:\Works\Examples\Lottery\01 code\LotterySpider.Common\bin\Debug\LotterySpider.Common.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Common\bin\Debug\LotterySpider.Common.pdb
+D:\Works\Examples\Lottery\01 code\LotterySpider.Common\bin\Debug\Newtonsoft.Json.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Common\obj\Debug\LotterySpider.Common.csproj.CoreCompileInputs.cache
+D:\Works\Examples\Lottery\01 code\LotterySpider.Common\obj\Debug\LotterySpider.Common.csproj.CopyComplete
+D:\Works\Examples\Lottery\01 code\LotterySpider.Common\obj\Debug\LotterySpider.Common.dll
+D:\Works\Examples\Lottery\01 code\LotterySpider.Common\obj\Debug\LotterySpider.Common.pdb

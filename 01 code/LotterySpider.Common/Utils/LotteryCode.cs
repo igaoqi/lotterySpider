@@ -94,6 +94,16 @@
             /// 极速时时彩
             /// </summary>
             public static readonly string Jsssc = "10036";
+
+            public static readonly string Jssc = "10037";
+
+            /// <summary>
+            /// 幸运时时彩
+            /// </summary>
+            public static readonly string Xyssc = "10059";
+
+            public static readonly string Xjssc = "10004";
+            public static readonly string Tjssc = "10003";
         }
 
         /// <summary>
@@ -101,6 +111,28 @@
         /// </summary>
         public struct Gpc
         {
+            /// <summary>
+            /// 重庆幸运农场
+            /// </summary>
+            public static readonly string Cqxync = "10009";
+
+            /// <summary>
+            /// 广东快乐十分
+            /// </summary>
+            public static readonly string Gdklsf = "10005";
+
+            /// <summary>
+            /// 天津快乐十分
+            /// </summary>
+            public static readonly string Tjklsf = "10034";
+
+            /// <summary>
+            /// 北京快乐8
+            /// </summary>
+            public static readonly string Bjkl8 = "10014";
+
+            public static readonly string Cqqxc = "10050";
+            public static readonly string Gxklsf = "10038";
         }
 
         public struct Shiyi5

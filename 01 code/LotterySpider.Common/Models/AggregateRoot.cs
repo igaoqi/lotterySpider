@@ -21,7 +21,7 @@ namespace LotterySpider.Common.Models
 
         public int SumNum { get; set; }
 
-        public bool SingleOrDouble { get; set; }
+        public int SingleOrDouble { get; set; }
 
         public string Remark { get; set; }
     }

@@ -7,7 +7,7 @@ namespace LotterySpider.Common.Dtos.Lottery168
         public string preDrawCode { get; set; }
         public DateTime preDrawTime { get; set; }
         public long preDrawIssue { get; set; }
-        public bool sumSingleDouble { get; set; }
+        public int sumSingleDouble { get; set; }
         public int sumNum { get; set; }
     }
 }

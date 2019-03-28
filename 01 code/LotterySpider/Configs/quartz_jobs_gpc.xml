@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+  <schedule>
+    <!-- 重庆农场 job start -->
+    <job>
+      <name>Cqnc</name>
+      <group></group>
+      <description>CqncDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Gpc.CqncJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>CqncTrigger</name>
+        <group></group>
+        <job-name>Cqnc</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T00:21:45</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!-- 广东快乐十分 job start -->
+    <job>
+      <name>Gdklsf</name>
+      <group></group>
+      <description>GdklsfDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Gpc.GdklsfJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>GdklsfTrigger</name>
+        <group></group>
+        <job-name>Gdklsf</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:21:45</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--天津十分 job start -->
+    <job>
+      <name>Tjklsf</name>
+      <group></group>
+      <description>TjklsfDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Gpc.TjklsfJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>TjklsfTrigger</name>
+        <group></group>
+        <job-name>Tjklsf</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:10:55</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--北京快乐8 job start -->
+    <job>
+      <name>Bjkl8</name>
+      <group></group>
+      <description>Bjkl8Description</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Gpc.Bjkl8Job,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>Bjkl8Trigger</name>
+        <group></group>
+        <job-name>Bjkl8</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:05:00</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--重庆七星彩 job start -->
+    <job>
+      <name>Cqqxc</name>
+      <group></group>
+      <description>CqqxcDescription</description>
+      <job-type>LotterySpider.Core.Jobs.Impls.Gpc.CqqxcJob,LotterySpider.Core</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>CqqxcTrigger</name>
+        <group></group>
+        <job-name>Cqqxc</job-name>
+        <job-group></job-group>
+        <start-time>2019-01-01T09:05:00</start-time>
+        <cron-expression>0 0/20 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>

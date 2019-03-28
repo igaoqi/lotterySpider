@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dto\Lottery168\Json168SubCQssc.cs" />
+    <Compile Include="Dto\Lottery168\Json168SubGpc.cs" />
     <Compile Include="Dto\Lottery168\Json168SubK3.cs" />
     <Compile Include="Dto\Lottery168\Json168SubShiyi5.cs" />
     <Compile Include="Models\AggregateRoot.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Dto\Lottery168\Json168SubJSC.cs" />
     <Compile Include="Dto\Lottery168\Json168SubQGC.cs" />
     <Compile Include="Enums\KaiJiang168.cs" />
+    <Compile Include="Models\GpcModel.cs" />
     <Compile Include="Models\Jsc.cs" />
     <Compile Include="Models\K3Model.cs" />
     <Compile Include="Models\Shiyi5.cs" />

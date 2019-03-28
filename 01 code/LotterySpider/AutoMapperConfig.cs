@@ -22,7 +22,8 @@ namespace LotterySpider
                     .Include<Json168SubRmc, Rmc>()
                     .Include<Json168SubRmc, Ssc>()
                     .Include<Json168SubShiyi5, Shiyi5>()
-                    .Include<Json168SubK3, K3Model>();
+                    .Include<Json168SubK3, K3Model>()
+                    .Include<Json168SubGpc, GpcModel>();
 
                 config.CreateMap<Json168SubQGC, Qgc>();
                 config.CreateMap<Json168SubJWC, Jwc>();
@@ -40,6 +41,8 @@ namespace LotterySpider
                 .ForMember(t => t.secondSeafood, p => p.MapFrom(s => s.secondSeafood))
                 .ForMember(t => t.thirdSeafood, p => p.MapFrom(s => s.thirdSeafood))
                 .ForMember(t => t.sumBigSmall, p => p.MapFrom(s => s.sumBigSmall));
+
+                config.CreateMap<Json168SubGpc, GpcModel>();
             });
         }
     }
